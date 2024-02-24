@@ -1,0 +1,12 @@
+<mat-card class="example-card">
+  <img
+    appImageValidator
+    mat-card-image
+    [src]="movieItem?.image?.url"
+    alt="Photo of a Shiba Inu"
+  />
+  <mat-card-content>
+    <p><strong>Title:</strong>{{ movieItem.title }}</p>
+    <p><strong>Year:</strong>{{ movieItem.year }}</p>
+  </mat-card-content>
+</mat-card>

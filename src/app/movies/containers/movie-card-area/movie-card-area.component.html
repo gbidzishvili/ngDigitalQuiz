@@ -1,0 +1,9 @@
+<article class="movie-cards-area" *ngIf="moviesData">
+  <div class="cards">
+    <app-movie-card
+      *ngFor="let movie of moviesData.results"
+      [movieItem]="movie"
+    ></app-movie-card>
+  </div>
+  <app-pagination></app-pagination>
+</article>

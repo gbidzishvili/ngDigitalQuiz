@@ -1,0 +1,12 @@
+h2 {
+  color: rgb(87, 87, 87);
+  font-weight: 400;
+}
+
+mat-form-field {
+  display: block;
+}
+
+button {
+  width: 100%;
+}

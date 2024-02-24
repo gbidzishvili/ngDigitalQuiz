@@ -1,0 +1,8 @@
+<form [formGroup]="movieForm" (ngSubmit)="onSubmit()">
+  <h2>Enter movie name</h2>
+  <mat-form-field>
+    <mat-label>Enter movie title</mat-label>
+    <input formControlName="search" matInput />
+  </mat-form-field>
+  <button mat-raised-button color="primary">Search</button>
+</form>
